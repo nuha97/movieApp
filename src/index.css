@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'monospace', sans-serif;
+  background-color: #223343 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #eee ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+  padding: 50px 15px 0px;
+}
+
+header h1{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+.App-header h2 {
+  margin: 0;
+}
+
+.searchbox {
+  display:  block;
+  width : 100%;
+  padding: 15px;
+
+  border: none;
+  outline: none;
+  background: none;
+
+  background-color: #eee;
+  border-radius: 8px;
+
+  color: #53565a;
+  font-size: 20px;
+  font-weight: 300;
+  
+  transition: 0.4s ease-out;
+}
+
+.searchbox:focus{
+  box-shadow: 0px 0px 8px 3px #4484c4;
+}
+
+.movieStyle {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+}
+
+.movieStyle .movie {
+ width: 33.333333%;
+ min-width: 250px;
+ padding: 15px;
+ display: flex;
+ flex-direction: column;
+max-height: 100%;
+}
+
+
+.add-movies {
+  text-align: center;
+}
+
+.add-movies button {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 10px 30px 10px;
+}
+
+
+

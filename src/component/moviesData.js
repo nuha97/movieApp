@@ -15,49 +15,58 @@
                 "Title":"La La Land",
                 "PosterUrl":posters[0],
                 "Rate":3,
-                "Description":"La La Land is a 2016 American musical romantic drama film written and directed by Damien Chazelle. It stars Ryan Gosling as a jazz pianist and Emma Stone as an aspiring actress, who meet and fall in love while pursuing their dreams in Los Angeles. John Legend, Rosemarie DeWitt, Finn Wittrock, and J. K. Simmons also star."
+                "Description":"La La Land is a 2016 American musical romantic drama film written and directed by Damien Chazelle. It stars Ryan Gosling as a jazz pianist and Emma Stone as an aspiring actress, who meet and fall in love while pursuing their dreams in Los Angeles. John Legend, Rosemarie DeWitt, Finn Wittrock, and J. K. Simmons also star.",
+                "Trailer":"https://www.youtube.com/embed/0pdqf4P9MB8"
             },{
                 "Title":"Hacksaw Ridge",
                 "PosterUrl":posters[1],
                 "Rate":5,
-                "Description":"World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot."
+                "Description":"World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot.",
+                "Trailer":"https://www.youtube.com/embed/s2-1hz1juBI"
             },
             {
                 "Title":"Definitly, Maybe",
                 "PosterUrl":posters[2],
                 "Rate":4,
-                "Description":"A political consultant tries to explain his impending divorce and past relationships to his 11-year-old daughter."
+                "Description":"A political consultant tries to explain his impending divorce and past relationships to his 11-year-old daughter.",
+                "Trailer":"https://www.youtube.com/embed/0oK4VOUmOkc"
             },{
                 "Title":"1917",
                 "PosterUrl":posters[3],
                 "Rate":2,
-                "Description":"April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."
+                "Description":"April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+                "Trailer":"https://www.youtube.com/embed/YqNYrYUiMfg"
             },{
                 "Title":"Aladdin",
                 "PosterUrl":posters[4],
                 "Rate":3,
-                "Description":"A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true."
+                "Description":"A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+                "Trailer":"https://www.youtube.com/embed/foyufD52aog?list=TLPQMjUxMjIwMjDcbQPs604Ltw"
             },{
                 "Title":"Joker",
                 "PosterUrl":posters[5],
                 "Rate":3.5,
-                "Description":"In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker."
+                "Description":"In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+                "Trailer":"https://www.youtube.com/embed/xRjvmVaFHkk?list=TLPQMjUxMjIwMjDcbQPs604Ltw"
                 },
                 {
                 "Title":"Mulan",
                 "PosterUrl":posters[6],
                 "Rate":4.2,
-                "Description":"A young Chinese maiden disguises herself as a male warrior in order to save her father."
+                "Description":"A young Chinese maiden disguises herself as a male warrior in order to save her father.",
+                "Trailer":"https://www.youtube.com/embed/bJbAZh3fv0g?list=TLPQMjUxMjIwMjDcbQPs604Ltw"
                 },{                
                 "Title":"The Lion King",
                 "PosterUrl":posters[7],
                 "Rate":1.9,
-                "Description":"After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery."
+                "Description":"After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+                "Trailer":"https://www.youtube.com/embed/7TavVZMewpY?list=TLPQMjUxMjIwMjDcbQPs604Ltw"
                 },{
                 "Title":"Pride & Prejudic",
                 "PosterUrl":posters[8],
                 "Rate":5,
-                "Description":"Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class. Can each overcome their own pride and prejudice?"
+                "Description":"Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class. Can each overcome their own pride and prejudice?",
+                "Trailer":"https://www.youtube.com/embed/1dYv5u6v55Y?list=TLPQMjUxMjIwMjDcbQPs604Ltw"
                 }
             ]
         

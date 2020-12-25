@@ -5,32 +5,23 @@ import Filter from './component/Filter';
 import moviesData from './component/moviesData';
 import {useState}  from 'react';
 import AddMovie from './component/AddMovie';
+import Home from './component/Home'
+import MovieDetail from './component/MovieDetail';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
-
- // const [movieList, setMovieList] = useState(moviesData) 
-  const [movieList, setMovieList] = useState (moviesData);
-  const [search,setSearchInput] = useState("");
-  const [rating, setRatingFilter] = useState(0);
-  const [newMovie, setNewMovie] = useState({});
-
-  useEffect(()=>
-  {
-    setMovieList([...movieList,newMovie])
-  },[newMovie])
   return (
+    <Router>
     <div className="App">
-      <header>
-      <h1 >Movie Application</h1>
-      </header>
-      <main>
-      <Filter  setSearchInput={setSearchInput} setRatingFilter={setRatingFilter}/>
-      <MovieList movieList={movieList} search={search} rating={rating} />
-      <AddMovie setNewMovie={setNewMovie}  />
-      </main>
+     
+      <Switch>
+         <Route path="/" exact component={Home}/>
+         <Route path="/MovieDetail/:title"  component={MovieDetail}/>
+         </Switch>
     </div>
+    </Router>
   );
 }
 
 export default App;
-//react dev tool search={search}
+

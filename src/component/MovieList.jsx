@@ -1,9 +1,13 @@
 import React from 'react';
 import MovieCard from './MovieCard';
 
+
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 const MovieList = ({movieList , search,rating}) =>{
 
     return (
+      
         <div className="movieStyle">
             {
                 movieList.map((movie,index)=>
@@ -13,7 +17,10 @@ const MovieList = ({movieList , search,rating}) =>{
                     :<></>      
             )
             }
-        </div>
+        
+      
+   </div>
+  
     );
 }
 
